@@ -1,8 +1,11 @@
+import Footer from './components/Footer'
+import {FooterContainer} from './containers/footer'
+
 const App = () => {
   return (
-    <div>
-      <h1>Hello!</h1>
-    </div>
+    <>
+      <FooterContainer />
+    </>
   );
 }
 
